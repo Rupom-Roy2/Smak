@@ -1,0 +1,703 @@
+
+/* Templet Name:smak
+Templet Url:webdesginerrup.com
+Author: Rupom Roy
+Authoe Url: webdesginerrup.rupom.com
+Tag: Semple Agency Templet
+section:
+ Header area
+ services 
+ services part-2
+ work area
+ semple img
+ portfolio
+ number area
+ about area
+ team area
+ boi data 
+ skill
+ clients
+ desgin
+ contact
+ message
+ footer */
+  
+
+
+/* ******Rupom******** */
+/* header area css */
+/* ******Rupom******** */
+.header-area{
+  background:url(../img/banner/header-banner.jpg) no-repeat scroll 0 0 /cover;
+  height: 100vh;
+  position: relative;
+}
+.header-top{
+  background:var(--color-3);
+}
+.logo{
+  padding:16px;
+  padding: 1rem;
+}
+.menu ul{
+  position: relative;
+}
+.menu ul li:after{
+  position: absolute;
+  background: var(--color-1);
+  width: 5px;
+  height: 5px;
+  content: '';
+  top: 45%;
+  
+  
+}
+.menu ul li a{
+  padding:24px 48px;
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.menu ul li a:hover{
+  color: var(--color-1);
+}
+.active a{
+  color: var(--color-1);
+}
+.menu-show-btn{
+  display: none;
+  font-size:38.4px;
+  font-size: 2.4rem;
+  color: var(--color);
+}
+.header-body{
+  background: var(--color-3);
+  margin-top:160px;
+  margin-top: 10rem;
+}
+.header-heading{
+  max-width:1072px;
+  max-width: 67rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding:64px;
+  padding: 4rem;
+}
+.header-heading h1{
+  margin-bottom:64px;
+  margin-bottom: 4rem;
+}
+.btn1 a{
+padding:24px 48px;
+padding: 1.5rem 3rem;
+background:var(--color-1);
+color: var(--color-2);
+}
+.btn1 a:hover{
+  background:var(--color);
+  color: var(--color-2);
+}
+.icon-down {
+  text-align: center;
+  bottom:16px;
+  bottom: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.icon-down a{
+  font-size:32px;
+  font-size: 2rem;
+  background:var(--color-1);
+  padding:16px 32px;
+  padding: 1rem 2rem;
+}
+/* ******Rupom******** */
+/* services area css */
+/* ******Rupom******** */
+.services-area{
+  padding:80px 0px;
+  padding: 5rem 0rem;
+}
+.services-heading{
+  text-align: center;
+  margin-bottom:160px;
+  margin-bottom: 10rem;
+
+}
+.services-heading h6{
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.services-heading h2,.work-heading h2,.about-heading h2,.client-heading h2,.contact-heading h2{
+  position: relative;
+  margin-bottom:64px;
+  margin-bottom: 4rem;
+}
+.services-heading h2:after,.work-heading h2:after,.about-heading h2:after ,.client-heading h2:after,.contact-heading h2:after{
+  content: '';
+  position: absolute;
+  max-width:288px;
+  max-width: 18rem;
+  width: 100%;
+  height:3.2px;
+  height: 0.2rem;
+  bottom:-32px;
+  bottom: -2rem;
+  left: 42%;
+  right: 42%;
+  background:var(--color-1);
+
+}
+.services-heading p,.work-heading p{
+  max-width:1680px;
+  max-width: 105rem;
+  width: 100%;
+  margin: auto;
+}
+
+.services-box{
+  text-align: center;
+}
+.services-icon{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width:160px;
+  width: 10rem;
+ height:160px;
+ height: 10rem;
+ border-radius: 50%;
+ background:var(--color-1);
+ margin: auto;
+ border: 1px solid transparent;
+ margin-bottom:32px;
+ margin-bottom: 2rem;
+ -webkit-transition:.5s;
+ transition: .5s;
+}
+.services-icon i{
+ font-size:104px;
+ font-size: 6.5rem;
+}
+.services-box:hover .services-icon{
+color: var(--color-1);
+background: var(--color);
+border: 1px solid var(--color-3);
+}
+/* ******Rupom******** */
+/*service-area-part-2*/
+/* ******Rupom******** */
+.service-area-part-2{
+  background:var(--color-b);
+  padding:80px 0;
+  padding: 5rem 0;
+}
+.service-2-heading{
+  text-align: center;
+  margin-bottom:160px;
+  margin-bottom: 10rem;
+}
+.service-2-heading h2{
+  color: var(--color-1);
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.service-2-heading p{
+  color: var(--color);
+}
+.services-box2 img{
+  height:80px;
+  height: 5rem;
+  width: auto;
+  margin-bottom:48px;
+  margin-bottom: 3rem;
+}
+.services-box2{
+  text-align: center;
+}
+.services-box2 h4{
+  color: var(--color);
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.services-box2 p{
+color: var(--color);
+}
+/* ******Rupom******** */
+     /*work area*/
+/* ******Rupom******** */
+.work-area{
+  padding:80px 0px;
+  padding: 5rem 0rem;
+}
+.work-heading{
+  text-align: center;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.work-body{
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+}
+.work-menu ul li a{
+  color: var(--color-2);
+}
+.works-img img{
+width: 100%;
+
+-o-object-fit: cover;
+
+   object-fit: cover;
+}
+.works-img-text h2{
+  margin-bottom:48px;
+  margin-bottom: 3rem;
+}
+.works-img-text>.btn1{
+  margin-top:80px;
+  margin-top: 5rem;
+}
+.works-img-text>.btn1 a:hover,.portfolio-heading>.btn1 a:hover{
+  background: var(--color-2);
+  color: var(--color-1);
+}
+/* ******Rupom******** */
+/*semple img area*/
+/* ******Rupom******** */
+.simply-img-area{
+padding-bottom:80px;
+padding-bottom: 5rem;
+position: relative;
+margin-bottom:80px;
+margin-bottom: 5rem;
+}
+.simply-img-area>.row>.col-2{
+  padding:0px;
+  padding: 0rem;
+}
+.simple-img-box{
+  width: 100%;
+  height:400px;
+  height: 25rem;
+}
+.simple-img-box img{
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/* ******Rupom******** */
+/*portfolio area*/
+/* ******Rupom******** */
+.portfolio-area{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.portfolio-heading{
+  text-align: center;
+}
+.portfolio-heading h2{
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.portfolio-heading p{
+  margin-bottom:64px;
+  margin-bottom: 4rem;
+}
+/* ******Rupom******** */
+/*number area*/
+/* ******Rupom******** */
+.number-area{
+  padding:80px 0px;
+  padding: 5rem 0rem;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+  background:var(--color-b);
+}
+.number-heading{
+  text-align: center;
+}
+.number-heading h2,.number-heading p{
+  color: var(--color);
+  margin-bottom:48px;
+  margin-bottom: 3rem;
+}
+.number-box{
+  width: 100%;
+  text-align: center;
+  border: 1px solid var(--color-1);
+  padding:32px;
+  padding: 2rem;
+}
+.number-box h3{
+  color: var(--color);
+}
+.number-box h6{
+color: var(--color-1);
+}
+/* ******Rupom******** */
+/* about area*/
+/* ******Rupom******** */
+.about-area{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.about-heading{
+  text-align: center;
+  max-width:1680px;
+  max-width: 105rem;
+  width: 100%;
+  margin: auto;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.about-icon{
+  width:112px;
+  width: 7rem;
+  height:112px;
+  height: 7rem;
+  background: var(--color-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+.about-icon i{
+  font-size:64px;
+  font-size: 4rem;
+  color: var(--color);
+}
+/* ******Rupom******** */
+/*team area*/
+/* ******Rupom******** */
+.team-area{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.team-header{
+  text-align: center;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.team-header h2{
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.team-box{
+  width: 100%;
+  border-bottom:3.2px solid transparent;
+  border-bottom:0.2rem solid transparent;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+.team-box:hover{
+  border-bottom:3.2px solid rgb(223, 228, 229);
+  border-bottom:0.2rem solid rgb(223, 228, 229);
+}
+
+.team-img {
+  height:352px;
+  height: 22rem;
+}
+.team-img img{
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+  
+}
+.team-text{
+  text-align: center;
+  padding:32px;
+  padding: 2rem;
+}
+.team-text h5{
+  color: var(--color-1);
+}
+/* ******Rupom******** */
+/* Boi data area*/
+/* ******Rupom******** */
+.boi-data-area{
+  background:var(--color-2);
+  position: relative;
+}
+.boi-data-text{
+  max-width:1680px;
+  max-width: 105rem;
+  width: 100%;
+  margin: auto;
+  padding:80px;
+  padding: 5rem;
+}
+.boi-data-text h5{
+  color: var(--color-1);
+}
+.boi-data-text i{
+  color: var(--color);
+  margin-right:160px;
+  margin-right: 10rem;
+}
+.boi-icon a {
+  margin-top:48px;
+  margin-top: 3rem;
+  display: inline-block;
+}
+.boi-icon a i{
+  font-size:38.4px;
+  font-size: 2.4rem;
+  width:80px;
+  width: 5rem;
+  height:80px;
+  height: 5rem;
+  margin:16px;
+  margin: 1rem;
+  border:3.2px solid var(--color);
+  border: 0.2rem solid var(--color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.boi-box {
+	width:112px;
+	width: 7rem;
+	
+	border-bottom:64px solid var(--color-2);
+	
+	border-bottom: 4rem solid var(--color-2);
+	border-left:80px solid transparent;
+	border-left: 5rem solid transparent;
+	border-right:80px solid transparent;
+	border-right: 5rem solid transparent;
+  position: absolute;
+  top:-33.6px;
+  top: -2.1rem;
+}
+/* ******Rupom******** */
+/*skill area*/
+/* ******Rupom******** */
+.skill-area{
+  background: var(--color-b);
+  padding:80px 0px;
+  padding: 5rem 0rem;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+  
+}
+.skill-heading{
+  text-align: center;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.skill-heading h2,.skill-heading p{
+  color: var(--color);
+}
+.skill-box {
+  text-align: center;
+}
+.skill-box img{
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.skill-box h4{
+  color: var(--color-1);
+}
+/* ******Rupom******** */
+/*clients area*/
+/* ******Rupom******** */
+.clients-area{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.client-heading{
+  text-align: center;
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.client-heading p{
+  max-width:1680px;
+  max-width: 105rem;
+  width: 100%;
+  margin: auto;
+}
+.client-logo-box{
+  width: 100%;
+  text-align: center;
+}
+
+.btn-3 {
+  margin-top:48px;
+  margin-top: 3rem;
+}
+.btn-3 a{
+  background: var(--color-1);
+  padding:16px;
+  padding: 1rem;
+  margin:16px;
+  margin: 1rem;
+}
+/* ******Rupom******** */
+/*desgin -area*/
+/* ******Rupom******** */
+.desgin-area{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+  background: var(--color-2);
+  padding:80px 0px;
+  padding: 5rem 0rem;
+}
+.desgin-headding{
+  width: 100%;
+  text-align: center;
+  max-width:800px;
+  max-width: 50rem;
+  margin: auto;
+}
+.desgin-headding h4{
+  position: relative;
+}
+.desgin-headding h4,.desgin-headding h6{
+  color: var(--color);
+  margin-bottom:48px;
+  margin-bottom: 3rem;
+}
+
+.desgin-headding h4:after{
+  content: '';
+  position: absolute;
+  max-width:288px;
+  max-width: 18rem;
+  width: 100%;
+  height:3.2px;
+  height: 0.2rem;
+  bottom:-32px;
+  bottom: -2rem;
+  left:256px;
+  left: 16rem;
+  background:var(--color-1);
+
+}
+.dot-boxs i{
+  color: var(--color);
+  padding:8px;
+  padding: 0.5rem;
+}
+.dot-boxs i:first-child{
+  color: var(--color-1);
+  
+}
+/* ******Rupom******** */
+/*contact area*/
+/* ******Rupom******** */
+.contact-area{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+}
+.contact-heading{
+  margin-bottom:80px;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.contact-box{
+  text-align: center;
+}
+.contact-box i{
+  font-size:51.2px;
+  font-size: 3.2rem;
+  color: var(--color-1);
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.contact-box a{
+ color: var(--color-2);
+}
+/* ******Rupom******** */
+/*message area*/
+/* ******Rupom******** */
+.message-area{
+  padding:80px 0px;
+  padding: 5rem 0rem;
+  background: var(--color-b);
+}
+.message-heading{
+  text-align: center;
+  margin-bottom:48px;
+  margin-bottom: 3rem;
+}
+.message-heading h2,.message-heading p{
+  color: var(--color);
+  margin-bottom:32px;
+  margin-bottom: 2rem;
+}
+.name,.email,.subject,.message{
+  width: 100%;
+  padding:16px;
+  padding: 1rem;
+  background:transparent;
+  outline: navajowhite;
+  color: var(--color);
+  
+}
+.message{
+  resize: vertical;
+  height:352px;
+  height:22rem ;
+}
+.btn-send{
+  border: none;
+  background:var(--color-1);
+  color: var(--color-2);
+  padding:24px 48px;
+  padding: 1.5rem 3rem;
+  font-weight: 600;
+}
+/* ******Rupom******** */
+/*footer area*/
+/* ******Rupom******** */
+.footer-area{
+  background: var(--color-2);
+  padding:80px 0px;
+  padding: 5rem 0rem;
+}
+.footer-text{
+  text-align: center;
+}
+.footer-text p{
+  color: var(--color);
+  margin-bottom:48px;
+  margin-bottom: 3rem;
+}
+.footer-text p span{
+  color: var(--color-1);
+}
+.footer-icon i{
+  padding:16px;
+  padding: 1rem;
+  font-size:38.4px;
+  font-size: 2.4rem;
+}
